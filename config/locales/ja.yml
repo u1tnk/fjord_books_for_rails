@@ -3,12 +3,6 @@ ja:
         models:
             book: ブック
         attributes:
-            book:
-                title: タイトル
-                memo: メモ
-                author: 著者
-                picture: 画像
-                Books: 本の一覧
     title: タイトル
     memo: メモ
     author: 著者
@@ -17,13 +11,20 @@ ja:
     back: 戻る   
     edit: 編集
     destroy: 削除
-    New Book: 本追加
-    Show Book: 本詳細
-    Editing Book: 編集
-    Updated: 更新しました
-    Destroyed: 削除しました
-    Created: 本を登録しました
-    Are you sure?: 削除していいですか？   
+    books:
+      edit:
+        editing_book: 編集
+      index:
+        new_book: 本追加
+        final_confirm: 再確認してください
+      new:
+        new_book: 本追加
+      create:
+        success: 本を登録しました
+      update:
+        success: 更新しました
+      destroy:
+        success: 削除しました
     errors:
         messages:
         record_invalid: 'バリデーションに失敗しました: %{errors}'
@@ -228,7 +229,3 @@ ja:
         long: "%Y/%m/%d %H:%M"
         short: "%m/%d %H:%M"
     pm: 午後
-
-    
-
-
