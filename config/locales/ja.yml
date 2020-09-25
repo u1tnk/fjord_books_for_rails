@@ -1,12 +1,17 @@
 ja:
     activerecord:
-        models:
-            book: ブック
-        attributes:
+      models:
+        book: ブック
+      attributes:
+        book:
+          title: タイトル
+          memo: メモ
+          author: 著者
+          picture: 画像
     title: タイトル
     memo: メモ
     author: 著者
-    picture: 画像
+    picture: 画像     
     show: 詳細
     back: 戻る   
     edit: 編集
